@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb-{{ env }}.manidevops.fun
+#MONGODB_HOST: mongodb-{{ env }}.manidevops.fun
