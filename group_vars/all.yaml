@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.manidevops.fun # mongodb-dev.manidevops.fun
 REDIS_HOST: redis-{{ env }}.manidevops.fun
-CATALOGUE_HOST: catalogue.backend.alb-{{ env }}.manidevops.fun
-CART_HOST: cart.backend.alb-{{ env }}.manidevops.fun
-USER_HOST: user.backend.alb-{{ env }}.manidevops.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.manidevops.fun
+CART_HOST: cart.backend-alb-{{ env }}.manidevops.fun
+USER_HOST: user.backend-alb-{{ env }}.manidevops.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.manidevops.fun
 MYSQL_HOST: mysql-{{ env }}.manidevops.fun
-SHIPPING_HOST: shipping.backend.alb-{{ env }}.manidevops.fun
-PAYMENT_HOST: payment.backend.alb-{{ env }}.manidevops.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.manidevops.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.manidevops.fun
